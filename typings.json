@@ -1,5 +1,6 @@
 {
   "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20170310222111",
     "query-string": "registry:dt/query-string#4.3.0+20170315104407"
   },
   "globalDevDependencies": {

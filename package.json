@@ -1,11 +1,13 @@
 {
   "name": "Readit",
-  "version": "1.0.0",
+  "version": "0.8.0",
   "description": "Master Electron Course Project",
   "main": "main.js",
   "author": "Byron Lopez",
   "homepage": "http://www.grupocodei.com",
   "dependencies": {
+    "electron-log": "^2.2.17",
+    "electron-updater": "^3.1.2",
     "jquery": "^3.1.1",
     "query-string": "^6.1.0"
   },
@@ -15,14 +17,22 @@
       "buildResources": "."
     },
     "mac": {
-      "category": "public.app-category.productivity",
-      "target": "dmg"
+      "publish": [
+        "github"
+      ],
+      "category": "public.app-category.productivity"
     },
-    "win":{
+    "win": {
+      "publish": [
+        "github"
+      ],
       "certificateFile": "private/readit.p12",
       "verifyUpdateCodeSignature": false
     },
     "linux": {
+      "publish": [
+        "github"
+      ],
       "category": "Network"
     }
   },
