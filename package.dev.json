@@ -1,0 +1,31 @@
+{
+  "name": "Readit",
+  "version": "1.0.0",
+  "description": "Master Electron Course Project",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron": "*",
+    "devtron": "*",
+    "electron-reload": "*"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "query-string": "^6.1.0"
+  }
+}
